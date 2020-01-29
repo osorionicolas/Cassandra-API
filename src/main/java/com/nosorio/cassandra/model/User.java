@@ -20,11 +20,11 @@ public class User {
     private UUID id;
     
     @PrimaryKeyColumn(
-      name = "title", ordinal = 0, type = PrimaryKeyType.PARTITIONED)
+      name = "firstName", ordinal = 0, type = PrimaryKeyType.PARTITIONED)
     private String firstName;
    
     @PrimaryKeyColumn(
-      name = "publisher", ordinal = 1, type = PrimaryKeyType.PARTITIONED)
+      name = "lastName", ordinal = 1, type = PrimaryKeyType.PARTITIONED)
     private String lastName;
     
     @Column
